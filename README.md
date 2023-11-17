@@ -5,7 +5,7 @@ DivNEDS comprises **11,085** scenarios comprising a wide range of diverse natura
 <table>
   <tr>
     <td><img src='https://user-images.githubusercontent.com/67676957/283936625-6f908bba-f378-4e8f-9ab2-0cb911b66a31.png' width="400"></td>  
-    <td><img src='https://user-images.githubusercontent.com/67676957/283936625-6f908bba-f378-4e8f-9ab2-0cb911b66a31.png' width="400"></td>
+    <td><img src='https://user-images.githubusercontent.com/67676957/283940431-6f4b2cbe-2bdc-47ea-a45d-d39b9f951322.png' width="400"></td>
   </tr>
 </table>
 </p>
