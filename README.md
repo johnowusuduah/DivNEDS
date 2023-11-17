@@ -50,7 +50,7 @@ Zoom in for best viewing.
 
 
 ## Acknowledgement
-Our code is in part based on [GRiT](https://github.com/JialianW/GRiT), [Detic](https://github.com/facebookresearch/Detic), [CenterNet2](https://github.com/xingyizhou/CenterNet2),
+Our code is in part based on [GRiT](https://github.com/JialianW/GRiT), [DenseCap](https://github.com/jcjohnson/densecap) [Detic](https://github.com/facebookresearch/Detic), [CenterNet2](https://github.com/xingyizhou/CenterNet2),
 [detectron2](https://github.com/facebookresearch/detectron2),
 [GIT](https://github.com/microsoft/GenerativeImage2Text), and
 [transformers](https://github.com/huggingface/transformers). 
