@@ -1,7 +1,8 @@
 # DivNEDS: Diverse Naturalistic Edge Driving Scene Dataset for Autonomous Vehicle Scene Understanding
 DivNEDS comprises **11,085** scenarios comprising a wide range of diverse naturalistic edge situations annotated with **203,000** descriptive captions. These scenarios involve sudden and unpredictable maneuvers by other road users, impending accidents, animals and debris within right of way, hand signals from cyclists, and unusual interactions involving pedestrians, cyclists, and motorcyclists in right-hand and left-hand traffic. The data was captured in various locations, including New York, San Francisco, Seattle, Minneapolis (United States), Toronto (Canada), Madhepur, Mumbai (India), Johannesburg (South Africa), Jakarta (Indonesia), Melbourne (Australia), London (England), and Lagos (Nigeria) to capture variations in road standards and behaviors. 
 
-![](https://user-images.githubusercontent.com/67676957/283936625-6f908bba-f378-4e8f-9ab2-0cb911b66a31.png =300x300)
+
+<p align="center"> <img src='[docs/chatgpt.png](https://user-images.githubusercontent.com/67676957/283936625-6f908bba-f378-4e8f-9ab2-0cb911b66a31.png)' align="center" width="300" height="300> </p>
 
 ## Data
 ### Hierarchical Embedded Dense Captioning Strategy
