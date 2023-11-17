@@ -1,2 +1,2 @@
 # DivNEDS
-DivNEDS: Diverse Naturalistic Edge Driving Scene Dataset for Autonomous Vehicle Scene Understanding
+Diverse Naturalistic Edge Driving Scene (DivNEDS) Dataset for Autonomous Vehicle Scene Understanding
