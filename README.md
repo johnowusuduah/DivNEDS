@@ -38,15 +38,9 @@ ${DivNEDS_Root}
 ![Hierarchical Embedded Dense Captioning Strategy](https://user-images.githubusercontent.com/67676957/283937567-5af2020d-9a48-43c5-9944-12ae0f49e4c6.png)
 
 ## Sample Predictions
-<p align="center">
-<table>
-  <tr>
-    <td><img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' width="400"></td>  
-    <td><img src='https://user-images.githubusercontent.com/67676957/283942269-763ae2ba-723a-46ad-966a-92eb4dbd27c9.png' width="400"></td>
-    <td><img src='https://user-images.githubusercontent.com/67676957/283942576-fb5a170d-e242-4b02-9653-0a70abc33609.png' width="400"></td>
-  </tr>
-</table>
-</p>
+<p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' align="center" height="400px"> </p>
+<p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942269-763ae2ba-723a-46ad-966a-92eb4dbd27c9.png' align="center" height="400px"> </p>
+<p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942576-fb5a170d-e242-4b02-9653-0a70abc33609.png' align="center" height="400px"> </p>
 
 ## Training
 
