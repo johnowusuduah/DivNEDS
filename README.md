@@ -44,6 +44,8 @@ ${DivNEDS_Root}
 Zoom in for best viewing.
 
 ## Training
+We recommend training DivNET with a minimum of NVIDIA T4 GPUs. We use [DeepSpeed](https://github.com/microsoft/DeepSpeed) for training which works well for 
+[activation checkpointing](https://pytorch.org/docs/stable/checkpoint.html) in distributed training to save training memory.
 
 
 ## Benchmark Inference and Evaluation
