@@ -40,7 +40,7 @@ ${DivNEDS_Root}
 ## Sample Predictions
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' align="center" height="300px" width="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942269-763ae2ba-723a-46ad-966a-92eb4dbd27c9.png' align="center" height="300px" width="300px"> </p>
-<p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942576-fb5a170d-e242-4b02-9653-0a70abc33609.png' align="center" height="300px"> </p>
+<p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
 
 Zoom in for best viewing.
 
