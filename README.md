@@ -13,7 +13,7 @@ Download data into ..... folder with the command below after you clone this repo
 [insert wget command]
 
 Dataset strcture should look like:
-
+~~~
 ${DivNEDS_Root}
 |-- datasets
 `-- |-- divneds
@@ -22,6 +22,7 @@ ${DivNEDS_Root}
     |-- |-- |-- train.json
     |-- |-- |-- valid.json
     |-- |-- |-- test.json
+~~~
 
 ## Architecture of DivNET (Diverse Naturalistic Edge Driving Scenes Transformer)
 
