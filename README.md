@@ -41,7 +41,6 @@ ${DivNEDS_Root}
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283945258-d5ce9ffb-9a8a-4825-a66d-f7c7e61b638f.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
-
 Zoom in for best viewing.
 
 ## Training
@@ -51,6 +50,11 @@ Zoom in for best viewing.
 
 
 ## Acknowledgement
+Our code is in part based on [GRiT](https://github.com/JialianW/GRiT), [Detic](https://github.com/facebookresearch/Detic), [CenterNet2](https://github.com/xingyizhou/CenterNet2),
+[detectron2](https://github.com/facebookresearch/detectron2),
+[GIT](https://github.com/microsoft/GenerativeImage2Text), and
+[transformers](https://github.com/huggingface/transformers). 
+We thank the authors and appreciate their great works!
 
 
 
