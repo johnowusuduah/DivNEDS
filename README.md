@@ -18,6 +18,10 @@ We use hierarchical annotations with the lowest level approximating object detec
 
 
 ### Download Data
+In the root directory,
+~~~
+ cd datasets
+~~~
 Download data into ..... folder with the command below after you clone this repository:
 
 [insert wget command]
