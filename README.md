@@ -22,13 +22,14 @@ In the root directory,
 ~~~
  cd datasets
 ~~~
+Download DivNEDS into datasets directory with the command below
 ~~~
  wget https://divneds.blob.core.windows.net/divneds/divneds.zip
 ~~~
-Download data into ..... folder with the command below after you clone this repository:
-
-[insert wget command]
-
+Decompress DivNEDS with 
+~~~
+tar -xzf filename.zip
+~~~
 Dataset strcture should look like:
 ~~~
 ${DivNEDS_Root}
