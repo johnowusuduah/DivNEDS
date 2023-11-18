@@ -22,6 +22,9 @@ In the root directory,
 ~~~
  cd datasets
 ~~~
+~~~
+ wget https://divneds.blob.core.windows.net/divneds/divneds.zip
+~~~
 Download data into ..... folder with the command below after you clone this repository:
 
 [insert wget command]
