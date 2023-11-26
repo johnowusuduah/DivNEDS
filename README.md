@@ -28,7 +28,7 @@ Download DivNEDS into datasets directory with the command below
 ~~~
 Decompress DivNEDS with 
 ~~~
-tar -xzf filename.zip
+tar -xzf divneds.zip
 ~~~
 Dataset strcture should look like:
 ~~~
