@@ -242,10 +242,10 @@ class ViT(Backbone):
 
     def __init__(
         self,
-        img_size=1024,
+        img_size=416,
         patch_size=16,
         in_chans=3,
-        embed_dim=768,
+        embed_dim=1920,
         depth=12,
         num_heads=12,
         mlp_ratio=4.0,
@@ -307,6 +307,7 @@ class ViT(Backbone):
         else:
             self.pos_embed = None
 
+        # Modification by authors of DivNEDS
         # Modifications for embedded hierarchical dense captions
         self.pos_embed_level1 = nn.Parameter(torch.zeros(1, num_patches, embed_dim))
         self.pos_embed_level2 = nn.Parameter(torch.zeros(1, num_patches, embed_dim))
@@ -362,7 +363,10 @@ class ViT(Backbone):
                 self.pos_embed, self.pretrain_use_cls_token, (x.shape[1], x.shape[2])
             )
             # Modifications for embedded hierarchical dense captions
-            x = x + self.pos_embed_level1 + self.pos_embed_level2 + self.pos_embed_level3
+            # Add positional embedding for each level
+            x = x + self.pos_embed_level1
+            x = x + self.pos_embed_level2
+            x = x + self.pos_embed_level3
 
         for blk in self.blocks:
             if self.use_act_checkpoint:
@@ -445,10 +449,10 @@ class ViT_FPN(Backbone):
 
 @BACKBONE_REGISTRY.register()
 def build_vit_fpn_backbone(cfg, input_shape: ShapeSpec):
-    embed_dim = 768
+    embed_dim = 1920
     vit_out_dim = embed_dim
     bottom_up = ViT(  # Single-scale ViT backbone
-        img_size=1024,
+        img_size=416,
         patch_size=16,
         embed_dim=embed_dim,
         depth=12,
@@ -475,7 +479,7 @@ def build_vit_fpn_backbone(cfg, input_shape: ShapeSpec):
         out_feature="last_feat",)
 
     out_channels = cfg.MODEL.FPN.OUT_CHANNELS
-    assert out_channels == 256 or out_channels == 768 or out_channels == 1024
+    assert out_channels == 256 or out_channels == 1920 or out_channels == 2560
     backbone = ViT_FPN(bottom_up=bottom_up,
                        top_block=LastLevelP6P7_P5(out_channels, out_channels),
                        out_channels=out_channels,
@@ -487,10 +491,10 @@ def build_vit_fpn_backbone(cfg, input_shape: ShapeSpec):
 @BACKBONE_REGISTRY.register()
 def build_vit_fpn_backbone_large(cfg, input_shape: ShapeSpec):
     window_block_indexes = (list(range(0, 5)) + list(range(6, 11)) + list(range(12, 17)) + list(range(18, 23)))
-    embed_dim = 1024
+    embed_dim = 2560
     vit_out_dim = embed_dim
     bottom_up = ViT(  # Single-scale ViT backbone
-        img_size=1024,
+        img_size=416,
         patch_size=16,
         embed_dim=embed_dim,
         depth=24,
@@ -507,7 +511,7 @@ def build_vit_fpn_backbone_large(cfg, input_shape: ShapeSpec):
         out_feature="last_feat",)
 
     out_channels = cfg.MODEL.FPN.OUT_CHANNELS
-    assert out_channels == 256 or out_channels == 768 or out_channels == 1024
+    assert out_channels == 256 or out_channels == 1920 or out_channels == 2560
     backbone = ViT_FPN(bottom_up=bottom_up,
                           top_block=LastLevelP6P7_P5(out_channels, out_channels),
                           out_channels=out_channels,
@@ -519,10 +523,10 @@ def build_vit_fpn_backbone_large(cfg, input_shape: ShapeSpec):
 @BACKBONE_REGISTRY.register()
 def build_vit_fpn_backbone_huge(cfg, input_shape: ShapeSpec):
     window_block_indexes = (list(range(0, 7)) + list(range(8, 15)) + list(range(16, 23)) + list(range(24, 31)))
-    embed_dim = 1280
+    embed_dim = 3200
     vit_out_dim = embed_dim
     bottom_up = ViT(  # Single-scale ViT backbone
-        img_size=1024,
+        img_size=416,
         patch_size=16,
         embed_dim=embed_dim,
         depth=32,
