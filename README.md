@@ -112,11 +112,6 @@ You can download our pre-trained DivNET with the following command:
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
 Zoom in for best viewing.
 
-## Training
-We recommend training DivNET with a minimum of 8 NVIDIA T4 GPUs. We use [DeepSpeed](https://github.com/microsoft/DeepSpeed) for training which works well for 
-[activation checkpointing](https://pytorch.org/docs/stable/checkpoint.html) in distributed training to save training memory.
-
-
 ## Benchmark Inference and Evaluation
 
 
