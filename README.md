@@ -99,7 +99,7 @@ Our evaluation heavily relies on Johnson et al., 2016 work on fully convolutiona
 }
 ~~~
 
-**Dependencies**
+#### Dependencies
 Evaluation code requires Java, Python 2.7 and Lua. Thus we recommend creating a different environment and installing the following dependencies:
 ~~~
 luarocks install torch
