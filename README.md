@@ -30,14 +30,8 @@ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f ht
 In the current directory, clone and install *detectron2* with the following commands:
 ~~~
 git clone https://github.com/facebookresearch/detectron2.git
-~~~
-~~~
 cd detectron2
-~~~
-~~~
 git checkout cc87e7ec
-~~~
-~~~
 pip install -e .
 ~~~
 Change directory to DivNEDS and install specific requirements of DivNEDS
@@ -50,11 +44,7 @@ pip install -r requirements.txt
 **NB:** If conflicts exist between dependencies install the following packages in this specific order:
 ~~~
 pip install mpi4py
-~~~
-~~~
 pip install --upgrade pip
-~~~
-~~~
 pip install setuptools==59.5.0
 ~~~
 
