@@ -140,6 +140,7 @@ One important and perhaps non-trivial point to mention is that we use `merge_box
 
 
 ## Inference
+To test on DivNEDS test data set, run
 
 
 ## Sample Predictions
