@@ -134,6 +134,10 @@ rm meteor-1.5.tar.gz
 cd ..
 ~~~
 
+The most important entry point to evaluation is inside `eval_utils.lua`, and it's the `DenseCaptioningEvaluator` class. You'll notice that it has an `addResult()` function, and most of the heavy lifting of the evaluation is in the `evaluate()` function.
+
+One important and perhaps non-trivial point to mention is that we use `merge_boxes()` to merge ground truth boxes in the DivNEDS data that heavily overlap (>=0.7 IoU) into a single ground truth box with multiple reference captions.
+
 
 ## Inference
 
