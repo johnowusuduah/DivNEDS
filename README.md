@@ -31,7 +31,7 @@ conda activate DivNEDS
 ~~~
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
-In the current directory, clone and install detectron2 with the following commands:
+In the current directory, clone and install *detectron2* with the following commands:
 ~~~
 git clone https://github.com/facebookresearch/detectron2.git
 ~~~
