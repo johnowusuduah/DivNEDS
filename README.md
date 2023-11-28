@@ -17,7 +17,7 @@ We use hierarchical annotations with the lowest level approximating object detec
 <p align="center">
   <img src='https://user-images.githubusercontent.com/67676957/283935089-c95c2110-29fa-4310-9004-a2bd2b854877.png' align="center">
 </p>
-<p>Figure 1: Deconstruction of embedded hierarchical dense captioning strategy showing three (3) levels of annotations.</p>
+<i>Figure 1: Deconstruction of embedded hierarchical dense captioning strategy showing three (3) levels of annotations.</i>
 
 
 ### Download Data
