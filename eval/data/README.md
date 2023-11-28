@@ -1,1 +1,0 @@
-# METEOR and mAP
