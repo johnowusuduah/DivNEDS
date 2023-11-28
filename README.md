@@ -103,6 +103,22 @@ You can download our pre-trained DivNET with the following command:
  wget https://divneds.blob.core.windows.net/divneds/divnet_baseline.pth
 ~~~
 
+## Inference
+
+
+## Evaluation
+Our evaluation heavily relies on Johnson et al., 2016 work on fully convolutional localization networks for dense captioning. Kindly cite this paper whenever you evaluate DivNET:
+~~~
+@inproceedings{johnson2016densecap,
+  title={Densecap: Fully convolutional localization networks for dense captioning},
+  author={Johnson, Justin and Karpathy, Andrej and Fei-Fei, Li},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4565--4574},
+  year={2016}
+}
+~~~
+
+
 ## Architecture of DivNET (Diverse Naturalistic Edge Driving Scenes Transformer)
 ![Hierarchical Embedded Dense Captioning Strategy](https://user-images.githubusercontent.com/67676957/283937567-5af2020d-9a48-43c5-9944-12ae0f49e4c6.png)
 
@@ -112,7 +128,7 @@ You can download our pre-trained DivNET with the following command:
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
 Zoom in for best viewing.
 
-## Benchmark Inference and Evaluation
+
 
 
 ## Acknowledgement
