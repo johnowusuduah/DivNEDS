@@ -100,7 +100,7 @@ Our evaluation heavily relies on Johnson et al., 2016 work on fully convolutiona
 ~~~
 The code in these files is concerned with computing the Dense Captioning metric. The metric is inspired by the meap Average Precision in object detection literature in that it uses a set of thresholds, for each threshold it computes average precision, and the final number is the mean. In ordinary object detection one would sweep through IoU (Intersection over Union) overlaps at thresholds of 0.3, 0.4, 0.5, 0.6, 0.7 (the latest recommendation is to use all of these thresholds instead of only using 0.5, as done previously), and consider a candidate detection to be correct if it satisfied the desired overlap. In Dense Captioning we don't only evaluate localization but also captioning. Therefore, we also compute the METEOR score for every candidate detection and consider a candidate detection correct if it is both above a localization threshold and a METEOR score threshold. This is then interpreted as both a correctly localized and correctly described prediction.
 
-The METEOR thresholds we use are 0, 0.05, 0.1, 0.15, 0.2, 0.25, so the total number of pairwise thresholds we have to compute the score over is 5 x 6 = 30 (5 for IoU overlap thresholds 6 for METEOR thresholds). Note that the 0 threshold isn't a mistake or a "catchall" because we want the score to be strictly greater.
+The *METEOR* thresholds we use are 0, 0.05, 0.1, 0.15, 0.2, 0.25, so the total number of pairwise thresholds we have to compute the score over is 5 x 6 = 30 (5 for IoU overlap thresholds 6 for *METEOR* thresholds). Note that the 0 threshold isn't a mistake or a "catchall" because we want the score to be strictly greater.
 
 
 #### Requirements & Dependencies
