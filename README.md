@@ -91,7 +91,7 @@ ${DivNEDS_Root}
 
 ## Model
 ## Training of DivNET
-We utilize DeepSpeed for training because it allows activation checkpointing in distributed training.
+We utilize DeepSpeed for training because it allows activation checkpointing in distributed training. DeepSpeed is most suited for NVIDIA: Pascal, Volta, Ampere, and Hopper architectures and AMD: MI100 and MI200. We recommend training in Azure Machine Learning Studio on at least 8 x NVIDIA T4 GPUs. We recommend Microsoft Azure Machine Learning Studio for training.
 
 To train on multiple machine nodes run the following command in the root directory:
 ~~~
