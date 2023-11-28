@@ -158,7 +158,7 @@ python train_net.py --num-gpus-per-machine 8 --config-file configs/DivNET.yaml -
 Our code is in part based on [GRiT](https://github.com/JialianW/GRiT), [DenseCap](https://github.com/jcjohnson/densecap) [Detic](https://github.com/facebookresearch/Detic), [CenterNet2](https://github.com/xingyizhou/CenterNet2),
 [detectron2](https://github.com/facebookresearch/detectron2),
 [GIT](https://github.com/microsoft/GenerativeImage2Text), and
-[transformers](https://github.com/huggingface/transformers). 
+[transformers](https://github.com/huggingface/transformers), [DenseCap](https://github.com/jcjohnson/densecap). 
 We thank the authors and appreciate their great works!
 
 
