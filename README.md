@@ -140,7 +140,10 @@ One important and perhaps non-trivial point to mention is that we use `merge_box
 
 
 ## Inference
-To test on DivNEDS test data set, run
+To test on DivNEDS test data set, run:
+~~~
+python train_net.py --num-gpus-per-machine 8 --config-file configs/DivNET.yaml --output-dir-name ./output/divnet --eval-only MODEL.WEIGHTS models/divnet_baseline.pth
+~~~
 
 
 ## Sample Predictions
