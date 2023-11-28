@@ -149,7 +149,7 @@ python train_net.py --num-gpus-per-machine 8 --config-file configs/DivNET.yaml -
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283945258-d5ce9ffb-9a8a-4825-a66d-f7c7e61b638f.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
-<i>Zoom in for best viewing.</i>
+<p align="center">Zoom in for best viewing.</p>
 
 ## Architecture of DivNET (Diverse Naturalistic Edge Driving Scenes Transformer)
 ![Hierarchical Embedded Dense Captioning Strategy](https://user-images.githubusercontent.com/67676957/283937567-5af2020d-9a48-43c5-9944-12ae0f49e4c6.png)
