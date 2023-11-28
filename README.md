@@ -87,9 +87,6 @@ You can download our pre-trained DivNET with the following command:
  wget https://divneds.blob.core.windows.net/divneds/divnet_baseline.pth
 ~~~
 
-## Inference
-
-
 ## Evaluation
 Our evaluation heavily relies on Johnson et al., 2016 work on fully convolutional localization networks for dense captioning. Kindly cite this paper whenever you evaluate DivNET:
 ~~~
@@ -102,17 +99,36 @@ Our evaluation heavily relies on Johnson et al., 2016 work on fully convolutiona
 }
 ~~~
 
+**Dependencies**
+Evaluation code requires Java, Python 2.7 and Lua. Thus we recommend creating a different environment and installing the following dependencies:
+~~~
+luarocks install torch
+luarocks install nn
+luarocks install image
+luarocks install lua-cjson
+luarocks install https://raw.githubusercontent.com/qassemoquab/stnbhwd/master/stnbhwd-scm-1.rockspec
+luarocks install https://raw.githubusercontent.com/jcjohnson/torch-rnn/master/torch-rnn-scm-1.rockspec
+~~~
+
+For GPU acceleration, you will need to install the following:
+~~~
+luarocks install cutorch
+luarocks install cunn
+luarocks install cudnn
+~~~
 
 ## Architecture of DivNET (Diverse Naturalistic Edge Driving Scenes Transformer)
 ![Hierarchical Embedded Dense Captioning Strategy](https://user-images.githubusercontent.com/67676957/283937567-5af2020d-9a48-43c5-9944-12ae0f49e4c6.png)
+
+
+## Inference
+
 
 ## Sample Predictions
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283942144-410c3b85-c499-4634-a8a8-daa905278a6c.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283945258-d5ce9ffb-9a8a-4825-a66d-f7c7e61b638f.png' align="center" height="300px"> </p>
 <p align="center"> <img src='https://user-images.githubusercontent.com/67676957/283944585-1ce42446-d6bf-40aa-93eb-77da42d772e8.png' align="center" height="300px"> </p>
 Zoom in for best viewing.
-
-
 
 
 ## Acknowledgement
