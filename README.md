@@ -24,11 +24,7 @@ DivNEDS's scenes involve sudden and unpredictable maneuvers by other road users,
 Make sure the environment has the following dependencies installed:
 ~~~
 conda create --name DivNEDS python=3.8 -y
-~~~
-~~~
 conda activate DivNEDS
-~~~
-~~~
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
 In the current directory, clone and install *detectron2* with the following commands:
