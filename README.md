@@ -37,8 +37,6 @@ pip install -e .
 Change directory to DivNEDS and install specific requirements of DivNEDS
 ~~~
 cd .. && cd DivNEDS
-~~~
-~~~
 pip install -r requirements.txt
 ~~~
 **NB:** If conflicts exist between dependencies install the following packages in this specific order:
