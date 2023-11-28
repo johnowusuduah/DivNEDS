@@ -55,7 +55,10 @@ To train on multiple machine nodes run the following command in the root directo
 python train_deepspeed.py --num-machines 4 --num-gpus-per-machine 8 --config-file configs/DivNET.yaml --output-dir-name ./output/divnet
 ~~~
 
-You can download our pre-trained Div
+You can download our pre-trained DivNET with the following command:
+~~~
+ wget https://divneds.blob.core.windows.net/divneds/divnet_baseline.pth
+~~~
 
 ## Architecture of DivNET (Diverse Naturalistic Edge Driving Scenes Transformer)
 ![Hierarchical Embedded Dense Captioning Strategy](https://user-images.githubusercontent.com/67676957/283937567-5af2020d-9a48-43c5-9944-12ae0f49e4c6.png)
